@@ -1,0 +1,57 @@
+.container {
+    margin-top: 40px;
+    display: flex;
+    border: solid 2px black;
+    height: 95vh;
+    padding:0%;
+}
+
+.sidebar {
+    width: 200px;
+    background: black;
+    margin: 0;
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 5px;
+    background-color: black;
+    border: none;
+    color: #ffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #e0e0e0;
+}
+
+.sidebar ul li a.active {
+    background-color: #8282fc;
+    color: gray;
+}
+
+
+.content {
+    flex: 1;
+}
+
+
+.header{
+    background-color: black;
+    height: 90px;
+    width: 100%;
+}
+
+
+

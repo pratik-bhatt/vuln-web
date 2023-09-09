@@ -1,0 +1,53 @@
+--- flags ---
+
+1 => flag{AutoThreatsToWebApplication}
+upload a py file on the file upload and you will get a flag
+
+
+2 => flag{B4okenFunctionL3velAuth0rizati0n}
+delete an invoice in the admin and then get the flag
+
+
+3 => flag{BrokenObj3ctLev3lAuth}
+to get the flag and fully exploit bola,
+create an account and log in, inspect the elements
+check out the commented out urls and hit id 5,
+you are able to see the flag which is encoded in base 64,
+decode and submit.
+
+
+4 => flag{Br0ken0bjectLevelPr0p3rtyAuth}
+try login in as admin, mostly admin is /admin and password is admin or just password,
+login as admin and you get the flag.
+
+
+5 => flag{Br0kenAuth}
+try creating a user in the postman api using post method and you will get flag
+
+
+6 => flag{1mproperAssetMan4geme9t}
+inspect the element and you will be able to get an endpoint that has more info
+check it out and you will get details on it, login as super admin ang get the flag
+
+
+7 => flag{S3curityMisc0nfigurat10n}
+go to http://vuln-web.localhost/uploads/ you will get a txt file with the flag
+
+
+8 => flag{S3rverSide4equestF0g3ry}
+upload a file .php or .exe  and you will get the flag
+
+
+9 => flag{Un4estrict3dResourceC0nsumption}
+try uploading a file that is 200mb + and is in .exe format then 
+inspect to see the flags
+
+
+10 => flag{UnsafeApiConsumption}
+inspect element, you will get a commented out url hit it in postman add using post request with the body
+{
+    "Roles": "buisiness team",
+    "username": "trev",
+    "password": "b/s team"
+}
+as an example and you will get the flag
